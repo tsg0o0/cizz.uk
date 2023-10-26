@@ -1,0 +1,20 @@
+Hello,
+This domain is owned by "cizzuk@tsg0o0.com".
+
+Request deletion of all the following archives.
+- tsg0o0.com/*
+- *.tsg0o0.com/*
+- tsg0o0.net/*
+- *.tsg0o0.net/*
+- cizz.uk/*
+- *.cizz.uk/*
+
+Request that the following be excluded from the archive.
+- tsg0o0.com/x/*
+- tsg0o0.net/*
+- *.tsg0o0.net/*
+- cizz.uk/*
+- *.cizz.uk/*
+
+Thank you,
+Cizzuk
