@@ -1,20 +1,39 @@
-Hello,
 This domain is owned by "cizzuk@tsg0o0.com".
 
-Request deletion of all the following archives.
-- tsg0o0.com/*
-- *.tsg0o0.com/*
-- tsg0o0.net/*
-- *.tsg0o0.net/*
-- cizz.uk/*
-- *.cizz.uk/*
+Dear Archive.org,
 
-Request that the following be excluded from the archive.
-- tsg0o0.com/x/*
-- tsg0o0.net/*
-- *.tsg0o0.net/*
-- cizz.uk/*
-- *.cizz.uk/*
+I am writing to request the removal and exclusion of certain web content from the web.archive.org, in accordance with the guidelines provided on the following help page: https://help.archive.org/help/how-do-i-request-to-remove-something-from-archive-org/
 
-Thank you,
-Cizzuk
+Deletion Request for Web Archive:
+Timeframe: All Periods
+- https://tsg0o0.com/*
+- https://x.tsg0o0.com/*
+- https://files.tsg0o0.com/*
+- https://tsg0o0.net/*
+- https://cizz.uk/*
+
+Future Exclusion Requests for Web Archive:
+Timeframe: Indefinite
+- https://tsg0o0.net/*
+- https://cizz.uk/*
+- https://tsg0o0.com/x/*
+- https://tsg0o0.com/cdn-cgi/*
+- https://tsg0o0.com/.well-known/*
+
+To provide some context, I am the owner of each of these domains, and you can verify my ownership through the following links, which include my email address:
+- https://tsg0o0.com/waybackverify.txt
+- https://tsg0o0.net/waybackverify.txt
+- https://cizz.uk/waybackverify.txt
+
+The timeframes during which I have managed these domains are as follows:
+- tsg0o0.com: From February 7, 2020, to the present.
+- tsg0o0.net: From April 24, 2021, to the present.
+- cizz.uk: From February 16, 2023, to the present.
+
+I appreciate your prompt attention to this matter and your assistance in removing and excluding the specified content from the archive. If you require any further information or documentation from me, please do not hesitate to ask.
+
+Thank you for your cooperation.
+
+Sincerely,
+Cizzuk.
+
