@@ -1,0 +1,137 @@
+*{
+font-family:sans-serif;
+box-sizing:border-box;
+line-height:1.6;
+overflow-wrap:break-word;
+word-break:auto-phrase;
+}
+:root{
+--bg:#f5faff;
+--fg:#fff;
+--text:#1a1a1a;
+--head:#000;
+--link:#0070ff;
+--minibox:#0af;
+--border:#cae0f0;
+}
+@media(prefers-color-scheme:dark){
+:root {
+color-scheme:dark;
+--bg:#000;
+--fg:#111;
+--text:#eee;
+--head:#fff;
+--link:#00b2ff;
+--minibox:#0050a0;
+--border:#444;
+}
+}
+html{background:var(--bg)}
+body{
+background:var(--fg);
+color:var(--text);
+width:900px;
+margin:0 auto;
+}
+h1,h2,h3{
+color:var(--head);
+line-height:1.2;
+}
+.bod{
+width:100%;
+text-align:left;
+display:inline-block;
+padding:0 32px;
+}
+a{color:var(--link)}
+p{padding:5px 0px 5px}
+hr{
+margin:32px auto;
+width:100%;
+border:1px solid var(--border);
+}
+.boxtable{
+display:flex;
+margin:16px 0;
+flex-wrap:wrap;
+justify-content:flex-start;
+}
+.minibox{
+display:inline-block;
+border-radius:20px;
+border:2px solid var(--minibox);
+text-align:center;
+text-decoration:none;
+padding:5px 24px;
+margin:8px;
+line-height:26px;
+}
+.boxtable .minibox{
+min-width:calc((100% - 48px)/3);
+padding:5px 12px;
+}
+.minibox .aicon{
+margin-bottom:5px;
+vertical-align:bottom;
+}
+header{
+overflow-x:auto;
+white-space:nowrap;
+background:var(--bg);
+display:flex;
+width:100%;
+margin:0;
+justify-content:space-between;
+}
+header .ls{display:inline-flex}
+header .ls .icon{margin:0 4px}
+header .ls .icon img{
+vertical-align:middle;
+width:40px;
+height:40px;
+border-radius:15px;
+}
+footer{
+display:flex;
+justify-content:flex-start;
+flex-flow:wrap;
+text-align:center;
+font-size:80%;
+background:var(--bg);
+width:100%;
+margin:32px auto 8px;
+padding:8px 8px 0;
+}
+footer *{
+text-decoration:none;
+display:block;
+color:var(--subs);
+margin:0 8px;
+}
+img{pointer-events:none}
+img,header,footer,.tab-item{
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+user-select:none;
+}
+@media only screen and (max-width:900px){
+body{width:100vw}
+.bod{padding:0 calc(50vw - 418px)}
+}
+@media only screen and (max-width:868px){
+.bod{padding:0 16px}
+.boxtable .minibox{min-width:calc(100% / 3 - 16px)}
+}
+@media only screen and (max-width:558px){
+.boxtable .minibox{min-width:calc(50% - 16px)}
+}
+@media only screen and (max-width:362px){
+.boxtable .minibox{min-width:100%;margin:8px 0}
+}
+@media only screen and (max-width:150px){
+body{width:150px}
+}
+@media (hover:hover){
+.minibox{transition:border-color 150ms, background 150ms}
+.minibox:hover{border-color:#2070c0;background:var(--bg)}
+}
